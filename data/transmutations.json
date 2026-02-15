@@ -1,0 +1,1184 @@
+{
+  "meta": {
+    "name": "SUBIT Transmutation Matrix",
+    "version": "1.0.0",
+    "description": "Complete catalog of SUBIT transmutation formulas",
+    "date": "2025",
+    "fundamental_law": "Initial State ⊕ External Impulse ⊕ Catalyst = New State",
+    "operation": "XOR (exclusive OR) over 6-bit vectors",
+    "total_formulas": 4160,
+    "categories": {
+      "master_formulas": 12,
+      "generative_formulas": 64,
+      "cosmogonic_cycle": 8,
+      "seasonal_cycles": 20,
+      "philosopher_stone_family": 8,
+      "pair_transmutations": 2016,
+      "triple_transmutations": 4160
+    }
+  },
+  "four_pillars": {
+    "pioneer": {
+      "code": "10 10 10",
+      "name": "Pioneer",
+      "role": "Alpha — the beginning of manifestation"
+    },
+    "conciliar": {
+      "code": "11 11 11",
+      "name": "Conciliar",
+      "role": "Omega — the completion of manifestation"
+    },
+    "confessor": {
+      "code": "01 01 01",
+      "name": "Confessor",
+      "role": "Catalyst — the transformer"
+    },
+    "zero": {
+      "code": "00 00 00",
+      "name": "Zero",
+      "role": "Source — the unmanifest"
+    }
+  },
+  "master_formulas": [
+    {
+      "id": 1,
+      "name": "The Philosopher's Stone",
+      "description": "Personal longing transmutes into collective achievement",
+      "formula": {
+        "current": { "code": "10 11 00", "name": "Steadfast" },
+        "impulse": { "code": "00 10 10", "name": "Ghost" },
+        "catalyst": { "code": "01 00 01", "name": "Beloved" },
+        "result": { "code": "11 01 11", "name": "Council" }
+      },
+      "interpretation": "The individual in their deepest winter (Steadfast) receives an unexpected impulse from the beyond (Ghost) through the intimate presence of a beloved other (Beloved), transmuting into collective wisdom (Council).",
+      "applications": ["Personal crisis → community support", "Isolation → belonging", "Suffering → meaning"]
+    },
+    {
+      "id": 2,
+      "name": "The Hero's Journey",
+      "description": "The innocent becomes the teacher through trials",
+      "formula": {
+        "current": { "code": "10 10 10", "name": "Pioneer" },
+        "impulse": { "code": "00 01 00", "name": "Shadow" },
+        "catalyst": { "code": "11 00 01", "name": "Shared Experience" },
+        "result": { "code": "01 11 11", "name": "Teacher" }
+      },
+      "interpretation": "The innocent hero (Pioneer) confronts the dark unknown (Shadow), receives the accumulated wisdom of community (Shared Experience), and emerges as one who guides others (Teacher).",
+      "applications": ["Coming-of-age", "Career transformation", "Spiritual awakening"]
+    },
+    {
+      "id": 3,
+      "name": "The Alchemical Marriage",
+      "description": "Union of opposites returns to the source",
+      "formula": {
+        "current": { "code": "10 10 10", "name": "Pioneer" },
+        "impulse": { "code": "01 01 01", "name": "Confessor" },
+        "catalyst": { "code": "11 11 11", "name": "Conciliar" },
+        "result": { "code": "00 00 00", "name": "Zero" }
+      },
+      "interpretation": "The masculine principle (Pioneer) unites with the feminine principle (Confessor) through sacred community (Conciliar), returning to the unmanifest source (Zero) — the void from which all creation emerges.",
+      "applications": ["Sacred partnerships", "Mystical experiences", "Creative conception"]
+    },
+    {
+      "id": 4,
+      "name": "The Creative Process",
+      "description": "From stillness through inspiration to shared creation",
+      "formula": {
+        "current": { "code": "10 00 00", "name": "Anchoret" },
+        "impulse": { "code": "00 10 10", "name": "Ghost" },
+        "catalyst": { "code": "01 11 11", "name": "Teacher" },
+        "result": { "code": "11 01 01", "name": "Assembly" }
+      },
+      "interpretation": "The artist in silence (Anchoret) is visited by inspiration (Ghost); guided by mastery (Teacher), they bring forth work for the community (Assembly).",
+      "applications": ["Artistic creation", "Innovation", "Project completion"]
+    },
+    {
+      "id": 5,
+      "name": "The Healing Transformation",
+      "description": "Wounded isolation meets collective healing through a therapist",
+      "formula": {
+        "current": { "code": "10 01 00", "name": "Recluse" },
+        "impulse": { "code": "00 11 11", "name": "Egregore" },
+        "catalyst": { "code": "01 10 10", "name": "Mediator" },
+        "result": { "code": "11 00 01", "name": "Shared Experience" }
+      },
+      "interpretation": "The isolated wounded one (Recluse) enters the collective healing field (Egregore) through a skilled mediator (Mediator), integrating into shared human experience (Shared Experience).",
+      "applications": ["Psychotherapy", "Trauma recovery", "Support groups"]
+    },
+    {
+      "id": 6,
+      "name": "The Revelation",
+      "description": "From the void, through seeking and communion, wisdom emerges",
+      "formula": {
+        "current": { "code": "00 00 00", "name": "Zero" },
+        "impulse": { "code": "10 10 10", "name": "Pioneer" },
+        "catalyst": { "code": "11 11 11", "name": "Conciliar" },
+        "result": { "code": "01 01 01", "name": "Confessor" }
+      },
+      "interpretation": "From the unmanifest (Zero), the seeker (Pioneer) in perfect communion (Conciliar) receives revelation that becomes wisdom to share (Confessor).",
+      "applications": ["Mystical experience", "Philosophical insight", "Prophetic vision"]
+    },
+    {
+      "id": 7,
+      "name": "The Transformation of Power",
+      "description": "Individual power, touched by cosmic sign through allyship, becomes collective guardianship",
+      "formula": {
+        "current": { "code": "10 11 11", "name": "Creator" },
+        "impulse": { "code": "00 01 01", "name": "Sign" },
+        "catalyst": { "code": "01 00 10", "name": "Kindred" },
+        "result": { "code": "11 10 00", "name": "Guardians" }
+      },
+      "interpretation": "The powerful individual (Creator) receives a cosmic sign (Sign) through a kindred spirit (Kindred), transforming personal power into collective responsibility (Guardians).",
+      "applications": ["Leadership transition", "Legacy planning", "Mentorship"]
+    },
+    {
+      "id": 8,
+      "name": "The Dark Night of the Soul",
+      "description": "Community joy, through loss and false guidance, retreats to isolated potential",
+      "formula": {
+        "current": { "code": "11 11 11", "name": "Conciliar" },
+        "impulse": { "code": "00 01 01", "name": "Sign" },
+        "catalyst": { "code": "01 10 00", "name": "Guide" },
+        "result": { "code": "10 00 10", "name": "Secret" }
+      },
+      "interpretation": "A community in bliss (Conciliar) receives a disturbing sign (Sign) and follows a false guide (Guide), dissolving into isolated potential (Secret) — the seed of future rebirth.",
+      "applications": ["Depression", "Disillusionment", "Spiritual crisis"]
+    },
+    {
+      "id": 9,
+      "name": "The Awakening",
+      "description": "Old patterns shattered by cosmic force, supported by community, become enlightened witness",
+      "formula": {
+        "current": { "code": "10 00 01", "name": "Guardian" },
+        "impulse": { "code": "00 11 10", "name": "Force" },
+        "catalyst": { "code": "11 10 11", "name": "Builders" },
+        "result": { "code": "01 01 00", "name": "Listener" }
+      },
+      "interpretation": "The one who guards old patterns (Guardian) is struck by cosmic force (Force) while supported by a constructive community (Builders), awakening as pure witness (Listener).",
+      "applications": ["Enlightenment", "Breakthrough", "Paradigm shift"]
+    },
+    {
+      "id": 10,
+      "name": "The Cycle of Renewal",
+      "description": "Letting go of unrealized possibilities, through endurance and new beginnings, arrives at release",
+      "formula": {
+        "current": { "code": "00 00 01", "name": "Unrealized" },
+        "impulse": { "code": "10 11 00", "name": "Steadfast" },
+        "catalyst": { "code": "11 10 10", "name": "Pioneers" },
+        "result": { "code": "01 01 11", "name": "Catharsis" }
+      },
+      "interpretation": "Grieving what could have been (Unrealized), sustained by endurance (Steadfast) and new collective beginnings (Pioneers), one reaches emotional release (Catharsis).",
+      "applications": ["Grief work", "Letting go", "Emotional healing"]
+    },
+    {
+      "id": 11,
+      "name": "The Reconciliation",
+      "description": "Judgment, met by higher perspective through unconditional love, becomes renewed union",
+      "formula": {
+        "current": { "code": "10 01 01", "name": "Judge" },
+        "impulse": { "code": "00 10 11", "name": "Spirit" },
+        "catalyst": { "code": "01 00 00", "name": "Spiritual Father" },
+        "result": { "code": "11 11 10", "name": "Nuptial" }
+      },
+      "interpretation": "The one who judges (Judge) receives a higher perspective (Spirit) through unconditional love (Spiritual Father), dissolving into renewed sacred union (Nuptial).",
+      "applications": ["Forgiveness", "Relationship repair", "Conflict resolution"]
+    },
+    {
+      "id": 12,
+      "name": "The Complete Transmutation",
+      "description": "The three active pillars in perfect synthesis return to the source",
+      "formula": {
+        "current": { "code": "10 10 10", "name": "Pioneer" },
+        "impulse": { "code": "11 11 11", "name": "Conciliar" },
+        "catalyst": { "code": "01 01 01", "name": "Confessor" },
+        "result": { "code": "00 00 00", "name": "Zero" }
+      },
+      "interpretation": "The Alpha (Pioneer), Omega (Conciliar), and Catalyst (Confessor) — all manifestation — when perfectly combined, return to the unmanifest source (Zero). The cycle completes.",
+      "applications": ["Meditation", "Mystical union", "Philosophical understanding of totality"]
+    }
+  ],
+  "philosopher_stone_family": [
+    {
+      "id": "PS1",
+      "name": "The Stone Itself",
+      "formula": {
+        "current": { "code": "10 11 00", "name": "Steadfast" },
+        "impulse": { "code": "00 10 10", "name": "Ghost" },
+        "catalyst": { "code": "01 00 01", "name": "Beloved" },
+        "result": { "code": "11 01 11", "name": "Council" }
+      }
+    },
+    {
+      "id": "PS2",
+      "name": "The Mirror Stone",
+      "formula": {
+        "current": { "code": "10 11 00", "name": "Steadfast" },
+        "impulse": { "code": "11 01 11", "name": "Council" },
+        "catalyst": { "code": "01 00 01", "name": "Beloved" },
+        "result": { "code": "00 10 10", "name": "Ghost" }
+      }
+    },
+    {
+      "id": "PS3",
+      "name": "The Catalyst Stone",
+      "formula": {
+        "current": { "code": "10 11 00", "name": "Steadfast" },
+        "impulse": { "code": "00 10 10", "name": "Ghost" },
+        "catalyst": { "code": "11 01 11", "name": "Council" },
+        "result": { "code": "01 00 01", "name": "Beloved" }
+      }
+    },
+    {
+      "id": "PS4",
+      "name": "The Base Stone",
+      "formula": {
+        "current": { "code": "00 10 10", "name": "Ghost" },
+        "impulse": { "code": "01 00 01", "name": "Beloved" },
+        "catalyst": { "code": "11 01 11", "name": "Council" },
+        "result": { "code": "10 11 00", "name": "Steadfast" }
+      }
+    },
+    {
+      "id": "PS5",
+      "name": "The Shadow Stone",
+      "formula": {
+        "current": { "code": "10 11 00", "name": "Steadfast" },
+        "impulse": { "code": "00 10 11", "name": "Spirit" },
+        "catalyst": { "code": "01 00 00", "name": "Spiritual Father" },
+        "result": { "code": "11 01 01", "name": "Assembly" }
+      }
+    },
+    {
+      "id": "PS6",
+      "name": "The Light Stone",
+      "formula": {
+        "current": { "code": "10 11 00", "name": "Steadfast" },
+        "impulse": { "code": "00 10 10", "name": "Ghost" },
+        "catalyst": { "code": "01 11 11", "name": "Teacher" },
+        "result": { "code": "11 00 11", "name": "Shared Memory" }
+      }
+    },
+    {
+      "id": "PS7",
+      "name": "The Heart Stone",
+      "formula": {
+        "current": { "code": "10 11 00", "name": "Steadfast" },
+        "impulse": { "code": "00 10 01", "name": "Voice" },
+        "catalyst": { "code": "01 00 11", "name": "Friend" },
+        "result": { "code": "11 00 01", "name": "Shared Experience" }
+      }
+    },
+    {
+      "id": "PS8",
+      "name": "The Complete Stone",
+      "formula": {
+        "current": { "code": "10 10 10", "name": "Pioneer" },
+        "impulse": { "code": "11 11 11", "name": "Conciliar" },
+        "catalyst": { "code": "01 01 01", "name": "Confessor" },
+        "result": { "code": "00 00 00", "name": "Zero" }
+      }
+    }
+  ],
+  "cosmogonic_cycle": [
+    {
+      "stage": 1,
+      "name": "The Void",
+      "archetype": { "code": "00 00 00", "name": "Zero" },
+      "description": "The unmanifest, pure potentiality"
+    },
+    {
+      "stage": 2,
+      "name": "First Spark",
+      "formula": {
+        "from": { "code": "00 00 00", "name": "Zero" },
+        "impulse": { "code": "00 10 10", "name": "Ghost" },
+        "result": { "code": "10 10 10", "name": "Pioneer" }
+      },
+      "description": "The void is pierced by a ghost — the first spark of consciousness becomes the Pioneer"
+    },
+    {
+      "stage": 3,
+      "name": "The Separation",
+      "formula": {
+        "from": { "code": "10 10 10", "name": "Pioneer" },
+        "impulse": { "code": "00 01 00", "name": "Shadow" },
+        "result": { "code": "10 11 10", "name": "Warrior" }
+      },
+      "description": "The Pioneer encounters its shadow and becomes the Warrior, struggling with duality"
+    },
+    {
+      "stage": 4,
+      "name": "The Descent",
+      "formula": {
+        "from": { "code": "10 11 10", "name": "Warrior" },
+        "impulse": { "code": "00 10 10", "name": "Ghost" },
+        "result": { "code": "10 11 00", "name": "Steadfast" }
+      },
+      "description": "Through repeated trials, the Warrior becomes Steadfast, enduring the winter of the soul"
+    },
+    {
+      "stage": 5,
+      "name": "The Encounter",
+      "formula": {
+        "from": { "code": "10 11 00", "name": "Steadfast" },
+        "impulse": { "code": "01 00 01", "name": "Beloved" },
+        "result": { "code": "11 01 11", "name": "Council" }
+      },
+      "description": "In deepest darkness, the Beloved appears — the catalyst that transforms individual suffering into collective wisdom"
+    },
+    {
+      "stage": 6,
+      "name": "The Community",
+      "formula": {
+        "from": { "code": "11 01 11", "name": "Council" },
+        "impulse": { "code": "00 11 10", "name": "Force" },
+        "result": { "code": "11 00 10", "name": "Shared Dream" }
+      },
+      "description": "Collective wisdom touched by cosmic force becomes the Shared Dream of humanity"
+    },
+    {
+      "stage": 7,
+      "name": "The Manifestation",
+      "formula": {
+        "from": { "code": "11 00 10", "name": "Shared Dream" },
+        "impulse": { "code": "00 11 11", "name": "Egregore" },
+        "result": { "code": "11 11 11", "name": "Conciliar" }
+      },
+      "description": "The dream, energized by collective consciousness, manifests as perfect unity — the Omega point"
+    },
+    {
+      "stage": 8,
+      "name": "The Return",
+      "formula": {
+        "from": { "code": "11 11 11", "name": "Conciliar" },
+        "impulse": { "code": "01 01 01", "name": "Confessor" },
+        "result": { "code": "10 10 10", "name": "Pioneer" }
+      },
+      "description": "Perfect unity, witnessed by the Confessor, returns to the beginning — the cycle continues eternally"
+    }
+  ],
+  "generative_formulas": {
+    "book_of_ME": [
+      {
+        "target": { "code": "10 10 10", "name": "Pioneer" },
+        "formula": [
+          { "code": "10 10 11", "name": "Leader" },
+          { "code": "10 11 10", "name": "Warrior" },
+          { "code": "10 01 10", "name": "Sage" }
+        ]
+      },
+      {
+        "target": { "code": "10 10 11", "name": "Leader" },
+        "formula": [
+          { "code": "10 10 10", "name": "Pioneer" },
+          { "code": "10 11 11", "name": "Creator" },
+          { "code": "10 01 11", "name": "Philosopher" }
+        ]
+      },
+      {
+        "target": { "code": "10 10 01", "name": "Strategist" },
+        "formula": [
+          { "code": "10 10 00", "name": "Hermit" },
+          { "code": "10 11 01", "name": "Reaper" },
+          { "code": "10 01 01", "name": "Judge" }
+        ]
+      },
+      {
+        "target": { "code": "10 10 00", "name": "Hermit" },
+        "formula": [
+          { "code": "10 10 01", "name": "Strategist" },
+          { "code": "10 11 00", "name": "Steadfast" },
+          { "code": "10 01 00", "name": "Recluse" }
+        ]
+      },
+      {
+        "target": { "code": "10 11 10", "name": "Warrior" },
+        "formula": [
+          { "code": "10 10 10", "name": "Pioneer" },
+          { "code": "10 11 11", "name": "Creator" },
+          { "code": "10 00 10", "name": "Secret" }
+        ]
+      },
+      {
+        "target": { "code": "10 11 11", "name": "Creator" },
+        "formula": [
+          { "code": "10 10 11", "name": "Leader" },
+          { "code": "10 11 10", "name": "Warrior" },
+          { "code": "10 00 11", "name": "Treasure" }
+        ]
+      },
+      {
+        "target": { "code": "10 11 01", "name": "Reaper" },
+        "formula": [
+          { "code": "10 10 01", "name": "Strategist" },
+          { "code": "10 11 00", "name": "Steadfast" },
+          { "code": "10 00 01", "name": "Guardian" }
+        ]
+      },
+      {
+        "target": { "code": "10 11 00", "name": "Steadfast" },
+        "formula": [
+          { "code": "10 10 00", "name": "Hermit" },
+          { "code": "10 11 01", "name": "Reaper" },
+          { "code": "10 00 00", "name": "Anchoret" }
+        ]
+      },
+      {
+        "target": { "code": "10 01 10", "name": "Sage" },
+        "formula": [
+          { "code": "10 10 10", "name": "Pioneer" },
+          { "code": "10 01 11", "name": "Philosopher" },
+          { "code": "10 00 10", "name": "Secret" }
+        ]
+      },
+      {
+        "target": { "code": "10 01 11", "name": "Philosopher" },
+        "formula": [
+          { "code": "10 10 11", "name": "Leader" },
+          { "code": "10 01 10", "name": "Sage" },
+          { "code": "10 00 11", "name": "Treasure" }
+        ]
+      },
+      {
+        "target": { "code": "10 01 01", "name": "Judge" },
+        "formula": [
+          { "code": "10 10 01", "name": "Strategist" },
+          { "code": "10 01 00", "name": "Recluse" },
+          { "code": "10 00 01", "name": "Guardian" }
+        ]
+      },
+      {
+        "target": { "code": "10 01 00", "name": "Recluse" },
+        "formula": [
+          { "code": "10 10 00", "name": "Hermit" },
+          { "code": "10 01 01", "name": "Judge" },
+          { "code": "10 00 00", "name": "Anchoret" }
+        ]
+      },
+      {
+        "target": { "code": "10 00 10", "name": "Secret" },
+        "formula": [
+          { "code": "10 11 10", "name": "Warrior" },
+          { "code": "10 01 10", "name": "Sage" },
+          { "code": "00 00 10", "name": "Potential" }
+        ]
+      },
+      {
+        "target": { "code": "10 00 11", "name": "Treasure" },
+        "formula": [
+          { "code": "10 11 11", "name": "Creator" },
+          { "code": "10 01 11", "name": "Philosopher" },
+          { "code": "00 00 11", "name": "Unborn" }
+        ]
+      },
+      {
+        "target": { "code": "10 00 01", "name": "Guardian" },
+        "formula": [
+          { "code": "10 11 01", "name": "Reaper" },
+          { "code": "10 01 01", "name": "Judge" },
+          { "code": "00 00 01", "name": "Unrealized" }
+        ]
+      },
+      {
+        "target": { "code": "10 00 00", "name": "Anchoret" },
+        "formula": [
+          { "code": "10 11 00", "name": "Steadfast" },
+          { "code": "10 01 00", "name": "Recluse" },
+          { "code": "00 00 00", "name": "Zero" }
+        ]
+      }
+    ],
+    "book_of_WE": [
+      {
+        "target": { "code": "11 10 10", "name": "Pioneers" },
+        "formula": [
+          { "code": "11 10 11", "name": "Builders" },
+          { "code": "11 11 10", "name": "Nuptial" },
+          { "code": "11 01 10", "name": "Elders" }
+        ]
+      },
+      {
+        "target": { "code": "11 10 11", "name": "Builders" },
+        "formula": [
+          { "code": "11 10 10", "name": "Pioneers" },
+          { "code": "11 11 11", "name": "Conciliar" },
+          { "code": "11 01 11", "name": "Council" }
+        ]
+      },
+      {
+        "target": { "code": "11 10 01", "name": "Chroniclers" },
+        "formula": [
+          { "code": "11 10 00", "name": "Guardians" },
+          { "code": "11 11 01", "name": "Feasters" },
+          { "code": "11 01 01", "name": "Assembly" }
+        ]
+      },
+      {
+        "target": { "code": "11 10 00", "name": "Guardians" },
+        "formula": [
+          { "code": "11 10 01", "name": "Chroniclers" },
+          { "code": "11 11 00", "name": "Circle" },
+          { "code": "11 01 00", "name": "Silent" }
+        ]
+      },
+      {
+        "target": { "code": "11 11 10", "name": "Nuptial" },
+        "formula": [
+          { "code": "11 10 10", "name": "Pioneers" },
+          { "code": "11 11 11", "name": "Conciliar" },
+          { "code": "11 00 10", "name": "Shared Dream" }
+        ]
+      },
+      {
+        "target": { "code": "11 11 11", "name": "Conciliar" },
+        "formula": [
+          { "code": "11 10 11", "name": "Builders" },
+          { "code": "11 11 10", "name": "Nuptial" },
+          { "code": "11 00 11", "name": "Shared Memory" }
+        ]
+      },
+      {
+        "target": { "code": "11 11 01", "name": "Feasters" },
+        "formula": [
+          { "code": "11 10 01", "name": "Chroniclers" },
+          { "code": "11 11 00", "name": "Circle" },
+          { "code": "11 00 01", "name": "Shared Experience" }
+        ]
+      },
+      {
+        "target": { "code": "11 11 00", "name": "Circle" },
+        "formula": [
+          { "code": "11 10 00", "name": "Guardians" },
+          { "code": "11 11 01", "name": "Feasters" },
+          { "code": "11 00 00", "name": "Common Source" }
+        ]
+      },
+      {
+        "target": { "code": "11 01 10", "name": "Elders" },
+        "formula": [
+          { "code": "11 10 10", "name": "Pioneers" },
+          { "code": "11 01 11", "name": "Council" },
+          { "code": "11 00 10", "name": "Shared Dream" }
+        ]
+      },
+      {
+        "target": { "code": "11 01 11", "name": "Council" },
+        "formula": [
+          { "code": "11 10 11", "name": "Builders" },
+          { "code": "11 01 10", "name": "Elders" },
+          { "code": "11 00 11", "name": "Shared Memory" }
+        ]
+      },
+      {
+        "target": { "code": "11 01 01", "name": "Assembly" },
+        "formula": [
+          { "code": "11 10 01", "name": "Chroniclers" },
+          { "code": "11 01 00", "name": "Silent" },
+          { "code": "11 00 01", "name": "Shared Experience" }
+        ]
+      },
+      {
+        "target": { "code": "11 01 00", "name": "Silent" },
+        "formula": [
+          { "code": "11 10 00", "name": "Guardians" },
+          { "code": "11 01 01", "name": "Assembly" },
+          { "code": "11 00 00", "name": "Common Source" }
+        ]
+      },
+      {
+        "target": { "code": "11 00 10", "name": "Shared Dream" },
+        "formula": [
+          { "code": "11 11 10", "name": "Nuptial" },
+          { "code": "11 01 10", "name": "Elders" },
+          { "code": "00 00 10", "name": "Potential" }
+        ]
+      },
+      {
+        "target": { "code": "11 00 11", "name": "Shared Memory" },
+        "formula": [
+          { "code": "11 11 11", "name": "Conciliar" },
+          { "code": "11 01 11", "name": "Council" },
+          { "code": "00 00 11", "name": "Unborn" }
+        ]
+      },
+      {
+        "target": { "code": "11 00 01", "name": "Shared Experience" },
+        "formula": [
+          { "code": "11 11 01", "name": "Feasters" },
+          { "code": "11 01 01", "name": "Assembly" },
+          { "code": "00 00 01", "name": "Unrealized" }
+        ]
+      },
+      {
+        "target": { "code": "11 00 00", "name": "Common Source" },
+        "formula": [
+          { "code": "11 11 00", "name": "Circle" },
+          { "code": "11 01 00", "name": "Silent" },
+          { "code": "00 00 00", "name": "Zero" }
+        ]
+      }
+    ],
+    "book_of_YOU": [
+      {
+        "target": { "code": "01 10 10", "name": "Mediator" },
+        "formula": [
+          { "code": "01 10 11", "name": "Interpreter" },
+          { "code": "01 11 10", "name": "Mentor" },
+          { "code": "01 01 10", "name": "Mirror" }
+        ]
+      },
+      {
+        "target": { "code": "01 10 11", "name": "Interpreter" },
+        "formula": [
+          { "code": "01 10 10", "name": "Mediator" },
+          { "code": "01 11 11", "name": "Teacher" },
+          { "code": "01 01 11", "name": "Catharsis" }
+        ]
+      },
+      {
+        "target": { "code": "01 10 01", "name": "Peacemaker" },
+        "formula": [
+          { "code": "01 10 00", "name": "Guide" },
+          { "code": "01 11 01", "name": "Consultant" },
+          { "code": "01 01 01", "name": "Confessor" }
+        ]
+      },
+      {
+        "target": { "code": "01 10 00", "name": "Guide" },
+        "formula": [
+          { "code": "01 10 01", "name": "Peacemaker" },
+          { "code": "01 11 00", "name": "Therapist" },
+          { "code": "01 01 00", "name": "Listener" }
+        ]
+      },
+      {
+        "target": { "code": "01 11 10", "name": "Mentor" },
+        "formula": [
+          { "code": "01 10 10", "name": "Mediator" },
+          { "code": "01 11 11", "name": "Teacher" },
+          { "code": "01 00 10", "name": "Kindred" }
+        ]
+      },
+      {
+        "target": { "code": "01 11 11", "name": "Teacher" },
+        "formula": [
+          { "code": "01 10 11", "name": "Interpreter" },
+          { "code": "01 11 10", "name": "Mentor" },
+          { "code": "01 00 11", "name": "Friend" }
+        ]
+      },
+      {
+        "target": { "code": "01 11 01", "name": "Consultant" },
+        "formula": [
+          { "code": "01 10 01", "name": "Peacemaker" },
+          { "code": "01 11 00", "name": "Therapist" },
+          { "code": "01 00 01", "name": "Beloved" }
+        ]
+      },
+      {
+        "target": { "code": "01 11 00", "name": "Therapist" },
+        "formula": [
+          { "code": "01 10 00", "name": "Guide" },
+          { "code": "01 11 01", "name": "Consultant" },
+          { "code": "01 00 00", "name": "Spiritual Father" }
+        ]
+      },
+      {
+        "target": { "code": "01 01 10", "name": "Mirror" },
+        "formula": [
+          { "code": "01 10 10", "name": "Mediator" },
+          { "code": "01 01 11", "name": "Catharsis" },
+          { "code": "01 00 10", "name": "Kindred" }
+        ]
+      },
+      {
+        "target": { "code": "01 01 11", "name": "Catharsis" },
+        "formula": [
+          { "code": "01 10 11", "name": "Interpreter" },
+          { "code": "01 01 10", "name": "Mirror" },
+          { "code": "01 00 11", "name": "Friend" }
+        ]
+      },
+      {
+        "target": { "code": "01 01 01", "name": "Confessor" },
+        "formula": [
+          { "code": "01 10 01", "name": "Peacemaker" },
+          { "code": "01 01 00", "name": "Listener" },
+          { "code": "01 00 01", "name": "Beloved" }
+        ]
+      },
+      {
+        "target": { "code": "01 01 00", "name": "Listener" },
+        "formula": [
+          { "code": "01 10 00", "name": "Guide" },
+          { "code": "01 01 01", "name": "Confessor" },
+          { "code": "01 00 00", "name": "Spiritual Father" }
+        ]
+      },
+      {
+        "target": { "code": "01 00 10", "name": "Kindred" },
+        "formula": [
+          { "code": "01 11 10", "name": "Mentor" },
+          { "code": "01 01 10", "name": "Mirror" },
+          { "code": "00 00 10", "name": "Potential" }
+        ]
+      },
+      {
+        "target": { "code": "01 00 11", "name": "Friend" },
+        "formula": [
+          { "code": "01 11 11", "name": "Teacher" },
+          { "code": "01 01 11", "name": "Catharsis" },
+          { "code": "00 00 11", "name": "Unborn" }
+        ]
+      },
+      {
+        "target": { "code": "01 00 01", "name": "Beloved" },
+        "formula": [
+          { "code": "01 11 01", "name": "Consultant" },
+          { "code": "01 01 01", "name": "Confessor" },
+          { "code": "00 00 01", "name": "Unrealized" }
+        ]
+      },
+      {
+        "target": { "code": "01 00 00", "name": "Spiritual Father" },
+        "formula": [
+          { "code": "01 11 00", "name": "Therapist" },
+          { "code": "01 01 00", "name": "Listener" },
+          { "code": "00 00 00", "name": "Zero" }
+        ]
+      }
+    ],
+    "book_of_THEY": [
+      {
+        "target": { "code": "00 10 10", "name": "Ghost" },
+        "formula": [
+          { "code": "00 10 11", "name": "Spirit" },
+          { "code": "00 11 10", "name": "Force" },
+          { "code": "00 01 10", "name": "Reflection" }
+        ]
+      },
+      {
+        "target": { "code": "00 10 11", "name": "Spirit" },
+        "formula": [
+          { "code": "00 10 10", "name": "Ghost" },
+          { "code": "00 11 11", "name": "Egregore" },
+          { "code": "00 01 11", "name": "Whisper" }
+        ]
+      },
+      {
+        "target": { "code": "00 10 01", "name": "Voice" },
+        "formula": [
+          { "code": "00 10 00", "name": "Shadow" },
+          { "code": "00 11 01", "name": "Field" },
+          { "code": "00 01 01", "name": "Sign" }
+        ]
+      },
+      {
+        "target": { "code": "00 10 00", "name": "Shadow" },
+        "formula": [
+          { "code": "00 10 01", "name": "Voice" },
+          { "code": "00 11 00", "name": "Storm" },
+          { "code": "00 01 00", "name": "Silence" }
+        ]
+      },
+      {
+        "target": { "code": "00 11 10", "name": "Force" },
+        "formula": [
+          { "code": "00 10 10", "name": "Ghost" },
+          { "code": "00 11 11", "name": "Egregore" },
+          { "code": "00 00 10", "name": "Potential" }
+        ]
+      },
+      {
+        "target": { "code": "00 11 11", "name": "Egregore" },
+        "formula": [
+          { "code": "00 10 11", "name": "Spirit" },
+          { "code": "00 11 10", "name": "Force" },
+          { "code": "00 00 11", "name": "Unborn" }
+        ]
+      },
+      {
+        "target": { "code": "00 11 01", "name": "Field" },
+        "formula": [
+          { "code": "00 10 01", "name": "Voice" },
+          { "code": "00 11 00", "name": "Storm" },
+          { "code": "00 00 01", "name": "Unrealized" }
+        ]
+      },
+      {
+        "target": { "code": "00 11 00", "name": "Storm" },
+        "formula": [
+          { "code": "00 10 00", "name": "Shadow" },
+          { "code": "00 11 01", "name": "Field" },
+          { "code": "00 00 00", "name": "Zero" }
+        ]
+      },
+      {
+        "target": { "code": "00 01 10", "name": "Reflection" },
+        "formula": [
+          { "code": "00 10 10", "name": "Ghost" },
+          { "code": "00 01 11", "name": "Whisper" },
+          { "code": "00 00 10", "name": "Potential" }
+        ]
+      },
+      {
+        "target": { "code": "00 01 11", "name": "Whisper" },
+        "formula": [
+          { "code": "00 10 11", "name": "Spirit" },
+          { "code": "00 01 10", "name": "Reflection" },
+          { "code": "00 00 11", "name": "Unborn" }
+        ]
+      },
+      {
+        "target": { "code": "00 01 01", "name": "Sign" },
+        "formula": [
+          { "code": "00 10 01", "name": "Voice" },
+          { "code": "00 01 00", "name": "Silence" },
+          { "code": "00 00 01", "name": "Unrealized" }
+        ]
+      },
+      {
+        "target": { "code": "00 01 00", "name": "Silence" },
+        "formula": [
+          { "code": "00 10 00", "name": "Shadow" },
+          { "code": "00 01 01", "name": "Sign" },
+          { "code": "00 00 00", "name": "Zero" }
+        ]
+      },
+      {
+        "target": { "code": "00 00 10", "name": "Potential" },
+        "formula": [
+          { "code": "00 11 10", "name": "Force" },
+          { "code": "00 01 10", "name": "Reflection" },
+          { "code": "00 10 10", "name": "Ghost" }
+        ]
+      },
+      {
+        "target": { "code": "00 00 11", "name": "Unborn" },
+        "formula": [
+          { "code": "00 11 11", "name": "Egregore" },
+          { "code": "00 01 11", "name": "Whisper" },
+          { "code": "00 10 11", "name": "Spirit" }
+        ]
+      },
+      {
+        "target": { "code": "00 00 01", "name": "Unrealized" },
+        "formula": [
+          { "code": "00 11 01", "name": "Field" },
+          { "code": "00 01 01", "name": "Sign" },
+          { "code": "00 10 01", "name": "Voice" }
+        ]
+      },
+      {
+        "target": { "code": "00 00 00", "name": "Zero" },
+        "formula": [
+          { "code": "00 11 00", "name": "Storm" },
+          { "code": "00 01 00", "name": "Silence" },
+          { "code": "00 10 00", "name": "Shadow" }
+        ]
+      }
+    ]
+  },
+  "seasonal_cycles": {
+    "spring": [
+      {
+        "from": { "code": "10 10 10", "name": "Pioneer" },
+        "to": { "code": "10 11 10", "name": "Warrior" },
+        "impulse": { "code": "00 10 10", "name": "Ghost" }
+      },
+      {
+        "from": { "code": "10 10 10", "name": "Pioneer" },
+        "to": { "code": "10 01 10", "name": "Sage" },
+        "impulse": { "code": "00 01 10", "name": "Reflection" }
+      },
+      {
+        "from": { "code": "10 10 10", "name": "Pioneer" },
+        "to": { "code": "10 00 10", "name": "Secret" },
+        "impulse": { "code": "00 00 10", "name": "Potential" }
+      },
+      {
+        "from": { "code": "10 11 10", "name": "Warrior" },
+        "to": { "code": "10 11 11", "name": "Creator" },
+        "impulse": { "code": "00 10 11", "name": "Spirit" }
+      },
+      {
+        "from": { "code": "10 01 10", "name": "Sage" },
+        "to": { "code": "10 01 11", "name": "Philosopher" },
+        "impulse": { "code": "00 01 11", "name": "Whisper" }
+      }
+    ],
+    "summer": [
+      {
+        "from": { "code": "10 10 11", "name": "Leader" },
+        "to": { "code": "10 11 11", "name": "Creator" },
+        "impulse": { "code": "00 10 10", "name": "Ghost" }
+      },
+      {
+        "from": { "code": "10 10 11", "name": "Leader" },
+        "to": { "code": "10 01 11", "name": "Philosopher" },
+        "impulse": { "code": "00 01 10", "name": "Reflection" }
+      },
+      {
+        "from": { "code": "10 10 11", "name": "Leader" },
+        "to": { "code": "10 00 11", "name": "Treasure" },
+        "impulse": { "code": "00 00 10", "name": "Potential" }
+      },
+      {
+        "from": { "code": "10 11 11", "name": "Creator" },
+        "to": { "code": "10 11 01", "name": "Reaper" },
+        "impulse": { "code": "00 10 01", "name": "Voice" }
+      },
+      {
+        "from": { "code": "10 01 11", "name": "Philosopher" },
+        "to": { "code": "10 01 01", "name": "Judge" },
+        "impulse": { "code": "00 01 01", "name": "Sign" }
+      }
+    ],
+    "autumn": [
+      {
+        "from": { "code": "10 10 01", "name": "Strategist" },
+        "to": { "code": "10 11 01", "name": "Reaper" },
+        "impulse": { "code": "00 10 10", "name": "Ghost" }
+      },
+      {
+        "from": { "code": "10 10 01", "name": "Strategist" },
+        "to": { "code": "10 01 01", "name": "Judge" },
+        "impulse": { "code": "00 01 10", "name": "Reflection" }
+      },
+      {
+        "from": { "code": "10 10 01", "name": "Strategist" },
+        "to": { "code": "10 00 01", "name": "Guardian" },
+        "impulse": { "code": "00 00 10", "name": "Potential" }
+      },
+      {
+        "from": { "code": "10 11 01", "name": "Reaper" },
+        "to": { "code": "10 11 00", "name": "Steadfast" },
+        "impulse": { "code": "00 10 00", "name": "Shadow" }
+      },
+      {
+        "from": { "code": "10 01 01", "name": "Judge" },
+        "to": { "code": "10 01 00", "name": "Recluse" },
+        "impulse": { "code": "00 01 00", "name": "Silence" }
+      }
+    ],
+    "winter": [
+      {
+        "from": { "code": "10 10 00", "name": "Hermit" },
+        "to": { "code": "10 11 00", "name": "Steadfast" },
+        "impulse": { "code": "00 10 10", "name": "Ghost" }
+      },
+      {
+        "from": { "code": "10 10 00", "name": "Hermit" },
+        "to": { "code": "10 01 00", "name": "Recluse" },
+        "impulse": { "code": "00 01 10", "name": "Reflection" }
+      },
+      {
+        "from": { "code": "10 10 00", "name": "Hermit" },
+        "to": { "code": "10 00 00", "name": "Anchoret" },
+        "impulse": { "code": "00 00 10", "name": "Potential" }
+      },
+      {
+        "from": { "code": "10 11 00", "name": "Steadfast" },
+        "to": { "code": "10 11 10", "name": "Warrior" },
+        "impulse": { "code": "00 10 11", "name": "Spirit" }
+      },
+      {
+        "from": { "code": "10 01 00", "name": "Recluse" },
+        "to": { "code": "10 01 10", "name": "Sage" },
+        "impulse": { "code": "00 01 11", "name": "Whisper" }
+      }
+    ]
+  },
+  "pair_transmutations_sample": {
+    "four_pillars": [
+      {
+        "a": { "code": "10 10 10", "name": "Pioneer" },
+        "b": { "code": "10 10 10", "name": "Pioneer" },
+        "result": { "code": "00 00 00", "name": "Zero" }
+      },
+      {
+        "a": { "code": "10 10 10", "name": "Pioneer" },
+        "b": { "code": "11 11 11", "name": "Conciliar" },
+        "result": { "code": "01 01 01", "name": "Confessor" }
+      },
+      {
+        "a": { "code": "10 10 10", "name": "Pioneer" },
+        "b": { "code": "01 01 01", "name": "Confessor" },
+        "result": { "code": "11 11 11", "name": "Conciliar" }
+      },
+      {
+        "a": { "code": "10 10 10", "name": "Pioneer" },
+        "b": { "code": "00 00 00", "name": "Zero" },
+        "result": { "code": "10 10 10", "name": "Pioneer" }
+      },
+      {
+        "a": { "code": "11 11 11", "name": "Conciliar" },
+        "b": { "code": "11 11 11", "name": "Conciliar" },
+        "result": { "code": "00 00 00", "name": "Zero" }
+      },
+      {
+        "a": { "code": "11 11 11", "name": "Conciliar" },
+        "b": { "code": "01 01 01", "name": "Confessor" },
+        "result": { "code": "10 10 10", "name": "Pioneer" }
+      },
+      {
+        "a": { "code": "11 11 11", "name": "Conciliar" },
+        "b": { "code": "00 00 00", "name": "Zero" },
+        "result": { "code": "11 11 11", "name": "Conciliar" }
+      },
+      {
+        "a": { "code": "01 01 01", "name": "Confessor" },
+        "b": { "code": "01 01 01", "name": "Confessor" },
+        "result": { "code": "00 00 00", "name": "Zero" }
+      },
+      {
+        "a": { "code": "01 01 01", "name": "Confessor" },
+        "b": { "code": "00 00 00", "name": "Zero" },
+        "result": { "code": "01 01 01", "name": "Confessor" }
+      },
+      {
+        "a": { "code": "00 00 00", "name": "Zero" },
+        "b": { "code": "00 00 00", "name": "Zero" },
+        "result": { "code": "00 00 00", "name": "Zero" }
+      }
+    ],
+    "philosopher_stone_family": [
+      {
+        "a": { "code": "10 11 00", "name": "Steadfast" },
+        "b": { "code": "00 10 10", "name": "Ghost" },
+        "result": { "code": "10 01 10", "name": "Sage" }
+      },
+      {
+        "a": { "code": "10 11 00", "name": "Steadfast" },
+        "b": { "code": "01 00 01", "name": "Beloved" },
+        "result": { "code": "11 11 01", "name": "Feasters" }
+      },
+      {
+        "a": { "code": "10 11 00", "name": "Steadfast" },
+        "b": { "code": "11 01 11", "name": "Council" },
+        "result": { "code": "01 10 11", "name": "Interpreter" }
+      },
+      {
+        "a": { "code": "00 10 10", "name": "Ghost" },
+        "b": { "code": "01 00 01", "name": "Beloved" },
+        "result": { "code": "01 10 11", "name": "Interpreter" }
+      },
+      {
+        "a": { "code": "00 10 10", "name": "Ghost" },
+        "b": { "code": "11 01 11", "name": "Council" },
+        "result": { "code": "11 11 01", "name": "Feasters" }
+      },
+      {
+        "a": { "code": "01 00 01", "name": "Beloved" },
+        "b": { "code": "11 01 11", "name": "Council" },
+        "result": { "code": "10 01 10", "name": "Sage" }
+      }
+    ]
+  },
+  "complementary_pairs": [
+    {
+      "a": { "code": "10 10 10", "name": "Pioneer" },
+      "b": { "code": "01 01 01", "name": "Confessor" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 10 11", "name": "Leader" },
+      "b": { "code": "01 00 01", "name": "Beloved" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 10 01", "name": "Strategist" },
+      "b": { "code": "01 00 11", "name": "Friend" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 10 00", "name": "Hermit" },
+      "b": { "code": "01 00 00", "name": "Spiritual Father" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 11 10", "name": "Warrior" },
+      "b": { "code": "01 00 10", "name": "Kindred" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 11 11", "name": "Creator" },
+      "b": { "code": "01 11 11", "name": "Teacher" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 11 01", "name": "Reaper" },
+      "b": { "code": "01 11 01", "name": "Consultant" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 11 00", "name": "Steadfast" },
+      "b": { "code": "01 11 00", "name": "Therapist" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 01 10", "name": "Sage" },
+      "b": { "code": "01 01 10", "name": "Mirror" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 01 11", "name": "Philosopher" },
+      "b": { "code": "01 01 11", "name": "Catharsis" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 01 01", "name": "Judge" },
+      "b": { "code": "01 01 01", "name": "Confessor" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 01 00", "name": "Recluse" },
+      "b": { "code": "01 01 00", "name": "Listener" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 00 10", "name": "Secret" },
+      "b": { "code": "00 00 10", "name": "Potential" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 00 11", "name": "Treasure" },
+      "b": { "code": "00 00 11", "name": "Unborn" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 00 01", "name": "Guardian" },
+      "b": { "code": "00 00 01", "name": "Unrealized" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    },
+    {
+      "a": { "code": "10 00 00", "name": "Anchoret" },
+      "b": { "code": "00 00 00", "name": "Zero" },
+      "result": { "code": "00 00 00", "name": "Zero" }
+    }
+  ],
+  "symmetry_laws": [
+    {
+      "name": "Law of Cyclic Completion",
+      "description": "For any three archetypes A, B, C: If A ⊕ B ⊕ C = D, then A ⊕ B ⊕ D = C, A ⊕ C ⊕ D = B, and B ⊕ C ⊕ D = A"
+    },
+    {
+      "name": "Law of Four Pillars",
+      "formula": "Pioneer (10 10 10) ⊕ Conciliar (11 11 11) = Confessor (01 01 01) ⊕ Zero (00 00 00)"
+    },
+    {
+      "name": "Law of Complementary Opposition",
+      "description": "Every archetype has a perfect complement such that Archetype ⊕ Complement = Zero"
+    },
+    {
+      "name": "Law of Diagonal Resonance",
+      "description": "Archetypes on the main diagonal (same value across all dimensions) form a special set with unique properties",
+      "diagonal": [
+        { "code": "10 10 10", "name": "Pioneer" },
+        { "code": "11 11 11", "name": "Conciliar" },
+        { "code": "01 01 01", "name": "Confessor" },
+        { "code": "00 00 00", "name": "Zero" }
+      ]
+    }
+  ]
+}
