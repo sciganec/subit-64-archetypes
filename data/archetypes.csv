@@ -1,0 +1,65 @@
+code,binary,who,where,when,number,name,key,description,book
+10 10 10,101010,ME,EAST,SPRING,1,Pioneer,"initiative, beginning, purity of intent","The one who takes the first step into unknown territory. Unburdened by precedent, they create paths where none existed.",ME
+10 10 11,101011,ME,EAST,SUMMER,2,Leader,"confidence, direction, active leadership","Having found the path, the Pioneer becomes the Leader, guiding others with clarity and purpose.",ME
+10 10 01,101001,ME,EAST,AUTUMN,3,Strategist,"analysis, foresight, planning","Experience teaches the Leader to plan ahead. The Strategist sees multiple futures and prepares for each.",ME
+10 10 00,101000,ME,EAST,WINTER,4,Hermit,"waiting, inner preparation, potential","After much planning, a time of withdrawal. The Hermit waits in silence, gathering strength for the next cycle.",ME
+10 11 10,101110,ME,SOUTH,SPRING,5,Warrior,"courage, defense, fighting for ideals","When the path is threatened, the Warrior rises to defend it. Their courage protects what matters.",ME
+10 11 11,101111,ME,SOUTH,SUMMER,6,Creator,"creativity, realization, productivity","The Warrior's defense creates space for creation. The Creator brings new things into being.",ME
+10 11 01,101101,ME,SOUTH,AUTUMN,7,Reaper,"results, reward, harvesting fruits","Creation bears fruit. The Reaper gathers what has been grown, honoring the labor that produced it.",ME
+10 11 00,101100,ME,SOUTH,WINTER,8,Steadfast,"endurance, resistance, self-preservation","Through hardship, the Steadfast endures. They are the one who remains when all others have fallen away.",ME
+10 01 10,100110,ME,WEST,SPRING,9,Sage,"intuition, inner knowledge, insight","After action comes wisdom. The Sage sees patterns invisible to others, speaking from deep knowing.",ME
+10 01 11,100111,ME,WEST,SUMMER,10,Philosopher,"contemplation, truth-seeking, reflection","The Sage's insights become systematic. The Philosopher seeks universal truth through contemplation.",ME
+10 01 01,100101,ME,WEST,AUTUMN,11,Judge,"evaluation, discernment, justice","With truth comes judgment. The Judge discerns what is worthy, what is just, what must be preserved.",ME
+10 01 00,100100,ME,WEST,WINTER,12,Recluse,"isolation, self-analysis, distance from world","Judgment completed, the Recluse withdraws entirely — not in waiting like the Hermit, but in final solitude.",ME
+10 00 10,100010,ME,NORTH,SPRING,13,Secret,"hidden possibilities, mystery, unmanifest","That which is not yet revealed but could be. The Secret holds infinite potential in silence.",ME
+10 00 11,100011,ME,NORTH,SUMMER,14,Treasure,"inner wealth, potential, unused gifts","The Secret, when valued, becomes Treasure — gifts not yet given, riches not yet spent.",ME
+10 00 01,100001,ME,NORTH,AUTUMN,15,Guardian,"protection of the sacred, fidelity, responsibility","Treasure must be protected. The Guardian watches over what is precious, ensuring it reaches the right hands.",ME
+10 00 00,100000,ME,NORTH,WINTER,16,Anchoret,"complete inner silence, refusal to manifest","The deepest interiority — silence so complete that nothing emerges. The Anchoret is the individual before creation, after dissolution.",ME
+11 10 10,111010,WE,EAST,SPRING,17,Pioneers,"shared pioneering, team initiative","Many as one taking the first step. The Pioneers move together into unknown territory.",WE
+11 10 11,111011,WE,EAST,SUMMER,18,Builders,"collective construction, shared work","Having found ground, the Builders construct together. Their shared labor creates what none could alone.",WE
+11 10 01,111001,WE,EAST,AUTUMN,19,Chroniclers,"shared memory, tradition, experience transmission","What is built must be remembered. The Chroniclers record, preserve, and transmit collective experience.",WE
+11 10 00,111000,WE,EAST,WINTER,20,Guardians,"collective protection, shared security","Memory protected becomes security. The Guardians watch over the community's boundaries.",WE
+11 11 10,111110,WE,SOUTH,SPRING,21,Nuptial,"union, celebration of connection, joy of meeting","When individuals become community, there is celebration. The Nuptial is the joy of finding one another.",WE
+11 11 11,111111,WE,SOUTH,SUMMER,22,Conciliar,"absolute unity, collective celebration, ecstasy","Beyond mere meeting, the Conciliar is perfect unity — many acting as one in complete harmony.",WE
+11 11 01,111101,WE,SOUTH,AUTUMN,23,Feasters,"sharing fruits, distribution of blessings","Unity bears fruit. The Feasters share abundance, each receiving according to need, each giving according to ability.",WE
+11 11 00,111100,WE,SOUTH,WINTER,24,Circle,"collective survival, mutual support in hardship","When abundance ends, the Circle remains — community as mutual support through difficulty.",WE
+11 01 10,110110,WE,WEST,SPRING,25,Elders,"collective wisdom, shared vision","Those who have lived long see far. The Elders hold the community's wisdom, offering guidance.",WE
+11 01 11,110111,WE,WEST,SUMMER,26,Council,"collective intelligence, shared understanding","Wisdom gathered becomes Council — shared deliberation toward truth and right action.",WE
+11 01 01,110101,WE,WEST,AUTUMN,27,Assembly,"collective decision, shared judgment","Council leads to Assembly — the moment of collective decision, of binding choice.",WE
+11 01 00,110100,WE,WEST,WINTER,28,Silent,"shared silence, wordless unity","After decision, silence. The Silent community rests in wordless presence, united without speech.",WE
+11 00 10,110010,WE,NORTH,SPRING,29,Shared Dream,"collective unconscious, shared archetypes","Beneath waking awareness, the Shared Dream — images and patterns that belong to all.",WE
+11 00 11,110011,WE,NORTH,SUMMER,30,Shared Memory,"cultural memory, tradition, myths","The Dream remembered becomes Shared Memory — the stories that define a people.",WE
+11 00 01,110001,WE,NORTH,AUTUMN,31,Shared Experience,"common history, collective experience","Memory lived becomes Shared Experience — events that bind a community across generations.",WE
+11 00 00,110000,WE,NORTH,WINTER,32,Common Source,"ancestral home, shared root, single origin","Beyond all experience, the Common Source — that from which all communities emerge and to which all return.",WE
+01 10 10,011010,YOU,EAST,SPRING,33,Mediator,"mediation, translation, connection between","The one who stands between, translating each to the other. The Mediator creates bridges.",YOU
+01 10 11,011011,YOU,EAST,SUMMER,34,Interpreter,"interpretation, meaning conveyance, experience translation","Deeper than mediation, the Interpreter conveys meaning itself — making the foreign familiar.",YOU
+01 10 01,011001,YOU,EAST,AUTUMN,35,Peacemaker,"reconciliation, conflict resolution, harmonization","When connection fails, the Peacemaker restores it. They heal what has been broken between.",YOU
+01 10 00,011000,YOU,EAST,WINTER,36,Guide,"guidance through unknown, hope, orientation","In utter disorientation, the Guide appears — one who knows the way through darkness.",YOU
+01 11 10,011110,YOU,SOUTH,SPRING,37,Mentor,"knowledge transmission, growth support, tutelage","The one who walks beside, sharing what they know. The Mentor supports growth through presence.",YOU
+01 11 11,011111,YOU,SOUTH,SUMMER,38,Teacher,"inspiration, enlightenment, wisdom transmission","Beyond mentoring, the Teacher transforms — igniting understanding, awakening insight.",YOU
+01 11 01,011101,YOU,SOUTH,AUTUMN,39,Consultant,"professional advice, expertise, decision help","When specific knowledge is needed, the Consultant appears — offering expertise for particular problems.",YOU
+01 11 00,011100,YOU,SOUTH,WINTER,40,Therapist,"healing, restoration, psychological support","When the wound is in the soul, the Therapist appears — one trained in the art of inner healing.",YOU
+01 01 10,010110,YOU,WEST,SPRING,41,Mirror,"honest feedback, truthful vision","The one who shows you yourself — not as you wish to be, but as you are. The Mirror tells truth.",YOU
+01 01 11,010111,YOU,WEST,SUMMER,42,Catharsis,"emotional purification, liberation, deep experiencing","The Mirror's truth can be overwhelming. Catharsis is the release, the purification that follows honest seeing.",YOU
+01 01 01,010101,YOU,WEST,AUTUMN,43,Confessor,"acceptance, forgiveness, unconditional listening","After catharsis, the Confessor receives what remains — offering acceptance without judgment, forgiveness without condition.",YOU
+01 01 00,010100,YOU,WEST,WINTER,44,Listener,"deep listening, presence, wordless empathy","Beyond words, beyond confession, the Listener simply attends — present, open, receiving all.",YOU
+01 00 10,010010,YOU,NORTH,SPRING,45,Kindred,"resonance, deep understanding, soul connection","The one who is like you at the deepest level. Kindred spirits recognize each other instantly.",YOU
+01 00 11,010011,YOU,NORTH,SUMMER,46,Friend,"loyalty, support, shared growth","Kindred who walk together become Friends — loyal, supportive, growing side by side.",YOU
+01 00 01,010001,YOU,NORTH,AUTUMN,47,Beloved,"intimacy, love, profound closeness","Friend who becomes other half — the Beloved, with whom boundaries dissolve in love.",YOU
+01 00 00,010000,YOU,NORTH,WINTER,48,Spiritual Father,"spiritual guidance, initiation, tradition transmission","The one who gives birth to the spirit — not biologically, but through initiation, through transmission of what matters most.",YOU
+00 10 10,001010,THEY,EAST,SPRING,49,Ghost,"unexpected appearance, irrational intrusion","That which appears without explanation — the Ghost haunts the boundaries of reason.",THEY
+00 10 11,001011,THEY,EAST,SUMMER,50,Spirit,"supernatural knowledge, prophecy, vision","The Ghost, when it speaks, becomes Spirit — bearing knowledge from beyond, prophecy, vision.",THEY
+00 10 01,001001,THEY,EAST,AUTUMN,51,Voice,"inner call, intuition, ancestral voice","The Spirit's message becomes Voice — calling from within, speaking of things beyond ordinary knowing.",THEY
+00 10 00,001000,THEY,EAST,WINTER,52,Shadow,"hidden threat, unconscious fear","Not all that touches from beyond is benevolent. The Shadow is the feared, the repressed, the denied.",THEY
+00 11 10,001110,THEY,SOUTH,SPRING,53,Force,"cosmic energy, life force, tai chi","Pure power without form — the Force that moves through all things, animating, energizing.",THEY
+00 11 11,001111,THEY,SOUTH,SUMMER,54,Egregore,"collective consciousness, thought field, shared belief","When many focus on the same thing, an Egregore forms — a thought-field with its own life.",THEY
+00 11 01,001101,THEY,SOUTH,AUTUMN,55,Field,"archetypal field, reality matrix, potential forms","The structure within which all manifestation occurs — the Field that shapes what emerges.",THEY
+00 11 00,001100,THEY,SOUTH,WINTER,56,Storm,"cosmic cleansing, destruction of forms, catharsis of being","When the Field must be cleared, the Storm comes — destroying old forms to make way for new.",THEY
+00 01 10,000110,THEY,WEST,SPRING,57,Reflection,"self-knowledge through other, mirror of soul","The beyond sees itself in the world. Reflection is the moment of recognition — the divine glimpsing itself in creation.",THEY
+00 01 11,000111,THEY,WEST,SUMMER,58,Whisper,"subtle perception, intuitive knowledge, hints of being","Not voice, but Whisper — so subtle you might miss it, yet carrying the deepest truth.",THEY
+00 01 01,000101,THEY,WEST,AUTUMN,59,Sign,"synchronicity, omen, universe's hints","When the Whisper becomes event, it is Sign — meaningful coincidence, synchronicity, the universe winking.",THEY
+00 01 00,000100,THEY,WEST,WINTER,60,Silence,"absolute stillness, end of questions, peace","Beyond all signs, all whispers — Silence. Not absence of sound, but presence of peace so complete that questions end.",THEY
+00 00 10,000010,THEY,NORTH,SPRING,61,Potential,"pure possibility, unrealized, future","That which could be but is not yet. Potential is the unborn future, waiting to manifest.",THEY
+00 00 11,000011,THEY,NORTH,SUMMER,62,Unborn,"unmanifest, that which never was in manifestation","Deeper than Potential — that which will never manifest, the eternal unmanifest.",THEY
+00 00 01,000001,THEY,NORTH,AUTUMN,63,Unrealized,"lost possibilities, alternative realities","Paths not taken, lives not lived, worlds that might have been — the Unrealized mourns what could have been.",THEY
+00 00 00,000000,THEY,NORTH,WINTER,64,Zero,"absolute source, unmanifest, Tao, apeiron, divine void","The source of all and the destination of all. Zero is not nothing — it is everything in potential, the void that contains all possibilities.",THEY
